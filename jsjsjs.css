@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+header{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+.headerleft{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    color: rgb(126, 126, 126);
+}
+.headerright{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding-right: 12px;
+}
+#pp{
+    border-radius: 50%;
+}
+main{
+    height: auto;
+}
+.icns{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-size: 14px;
+    padding: 14px;
+}
+.icnleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: blue;
+}
+.icnright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.card{
+    margin-top: 10px;
+     border: 1px solid rgb(0, 0, 0);
+     width: 300px;
+     border-radius: 10px;
+     overflow: hidden;
+}
+.card img{
+    width: 100%;
+}
+.class{
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+}
+.classroom{
+    color: rgb(255, 255, 255);
+}
+.cardhead{
+    position: relative;
+}
+.cardhead__txt{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.cardmain{
+    padding: 80px 50px;
+}
+
+.cards{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.cardfoot{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 10px;
+    border-top: 1px solid rgb(214, 214, 214);
+}
